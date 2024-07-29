@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div>
-            <label for="city">City</label>
-            <input type="text" id="city">
-        </div>
+      <div class="input-container">
+        <input type="text" id="city" placeholder="Introduceti Orasul" />
+
         <div><button id="show-weather">Afiseaza Vremea</button></div>
-        <div id="weather-container"></div>
+        <div><button id="show-forecast">Afiseaza Prognoza</button></div>
+      </div>
+      <div id="weather-container"><h1>Vremea acum</h1></div>
+      <div id="forecast">
+        <h1>Vremea in zilele urmatoare</h1>
+        <div id="forecast-container"></div>
+      </div>
     </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

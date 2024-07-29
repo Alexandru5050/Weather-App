@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+  justify-content: center;
+  height: 40px;
+  background-color: white;
+  padding: 15px;
+}
+button {
+  height: 40px;
+  width: 170px;
+  font-size: large;
+  background-color: blue;
+  color: white;
+  
+}
+input {
+  font-size: large;
+  border-color: blue;
+}
+
+#weather-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  border-top: 2px solid gray;
+  padding: 20px;
+  background-color: white;
+}
+
+#forecast {
+  border-top: 2px solid gray;
+  background-color: white;
+  margin-top: 30px;
+  text-align: center;
+}
+#forecast-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+}
